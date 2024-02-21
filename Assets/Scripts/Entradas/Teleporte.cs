@@ -35,6 +35,7 @@ public class Teleporte : MonoBehaviour
             {
                 Gobj.transform.position = new Vector3(Gobj.transform.position.x, Saida.transform.position.y + AddDistance);
             }
+            PlayerDetectado = false;
         }
         
     }
