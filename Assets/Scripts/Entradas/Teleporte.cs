@@ -33,7 +33,7 @@ public class Teleporte : MonoBehaviour
             }
             else
             {
-                Gobj.transform.position = new Vector3(Gobj.transform.position.x, Saida.transform.position.y + AddDistance);
+                Gobj.transform.position = new Vector3(Gobj.transform.position.x, Saida.transform.position.y - AddDistance);
             }
             PlayerDetectado = false;
         }
