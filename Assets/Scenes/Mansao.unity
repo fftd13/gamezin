@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90636429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1932, y: 8.11, z: -0.014552376}
+  m_LocalPosition: {x: 0.04, y: 7.1, z: 0.01455238}
   m_LocalScale: {x: 17.273674, y: 13.075314, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -205,7 +205,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0478, y: -0.644}
+  m_Offset: {x: 0, y: -0.58}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -315,6 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b4453ac4434db4fbbe9b7eae01c915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 90636430}
 --- !u!1 &987467125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,7 +3207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320783193}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.78, y: 0, z: 0}
+  m_LocalPosition: {x: 11.6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3227,7 +3228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Saida: {fileID: 2081124731}
   Horizontal: 0
-  AddDistance: 1
+  AddDistance: 0
 --- !u!61 &1320783196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4124,7 +4125,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664189809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.048, y: -0.613, z: 0.014552376}
+  m_LocalPosition: {x: -0, y: -0.552, z: 0.014552376}
   m_LocalScale: {x: 0.057891563, y: 0.07648, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4256,4 +4257,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Saida: {fileID: 1320783193}
   Horizontal: 0
-  AddDistance: 3
+  AddDistance: 1.5
